@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/BoardGame.h
+utility
+-
+vector
+-
+
+/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/main.cpp
+iostream
+-
+BoardGame.h
+/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/BoardGame.h
+
