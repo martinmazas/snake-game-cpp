@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/BoardGame.h
+/Users/martinmazas/Desktop/Snake-Game/SnakeGame/BoardGame.h
 utility
 -
 vector
 -
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/main.cpp
+/Users/martinmazas/Desktop/Snake-Game/SnakeGame/main.cpp
 iostream
 -
 BoardGame.h
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/BoardGame.h
+/Users/martinmazas/Desktop/Snake-Game/SnakeGame/BoardGame.h
 

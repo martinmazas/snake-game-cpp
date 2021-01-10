@@ -5,4 +5,4 @@ int main() {
     std::cout << *board;
     return 0;
 
-    }
+}
