@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.cpp
+Food.h
+/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.h
+
 /Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.h
 cstdio
 -
@@ -15,22 +19,4 @@ Point.h
 /Users/martinmazas/Desktop/Snake-Game/SnakeGame/Point.h
 iostream
 -
-
-/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Snake.h
-vector
--
-Point.h
-/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Point.h
-
-/Users/martinmazas/Desktop/Snake-Game/SnakeGame/main.cpp
-iostream
--
-ctime
--
-ncurses.h
--
-Snake.h
-/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Snake.h
-Food.h
-/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.h
 
