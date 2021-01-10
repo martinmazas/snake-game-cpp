@@ -59,6 +59,6 @@ bool Snake::collided()
 
 bool Snake::eaten(Point food)
 {
-    if(_position.getY() == food.getX() && _position.getY() == food.getY()) return true;
+    if(_position.getX() == food.getX() && _position.getY() == food.getY()) return true;
     return false;
 }

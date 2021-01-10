@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.cpp" "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Food.cpp.o"
   "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Snake.cpp" "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Snake.cpp.o"
   "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/main.cpp" "/Users/martinmazas/Desktop/Snake-Game/SnakeGame/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/main.cpp.o"
   )

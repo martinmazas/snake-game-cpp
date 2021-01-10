@@ -6,23 +6,32 @@
 #define FINALPROJECT_SNAKEGAME_BOARDGAME_H
 #include <utility>
 #include <vector>
+#include "Point.h"
 
 class BoardGame {
 private:
-   std::vector<std::vector<int>> _board;
+    Point _snakePosition;
+    Point _foodPosition;
+    std::vector<Point> _snakeBody;
+//    int _score;
+//   std::vector<std::vector<int>> _board;
 public:
+//    BoardGame(){
+//        std::vector<int> col(35);
+//        //initial
+//        for (int i = 0; i < 35; i++) {
+//            _board.push_back(col);
+//        }
+//        //initial with -
+//        for (int i = 0; i < 35; i++) {
+//            for (int j = 0; j < 35; j++) {
+//                _board[i][j] = '-';
+//            }
+//        }
+//    }
+
     BoardGame(){
-        std::vector<int> col(35);
-        //initial
-        for (int i = 0; i < 35; i++) {
-            _board.push_back(col);
-        }
-        //initial with -
-        for (int i = 0; i < 35; i++) {
-            for (int j = 0; j < 35; j++) {
-                _board[i][j] = '-';
-            }
-        }
+
     }
     explicit BoardGame(std::vector<std::vector<int>>  board):_board(std::move(board)){}
 

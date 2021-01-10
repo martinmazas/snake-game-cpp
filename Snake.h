@@ -7,8 +7,8 @@
 #include <vector>
 #include "Point.h"
 
-#define HEIGHT 50
-#define WIDTH 25
+#define HEIGHT 25
+#define WIDTH 50
 
 class Snake {
 private:

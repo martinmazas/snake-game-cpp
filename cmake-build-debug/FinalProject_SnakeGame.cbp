@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.cpp">
+			<Option target="FinalProject_SnakeGame"/>
+		</Unit>
+		<Unit filename="/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Food.h">
+			<Option target="FinalProject_SnakeGame"/>
+		</Unit>
 		<Unit filename="/Users/martinmazas/Desktop/Snake-Game/SnakeGame/Snake.cpp">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
