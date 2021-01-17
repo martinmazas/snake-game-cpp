@@ -37,13 +37,13 @@ void board()
 
     for(int i = 0; i < HEIGHT; i++)
     {
-        cout << "\t\t#";
+        cout << "\t\t"<< u8"\U00002694";
         for(int j = 0; j < WIDTH - 2; j++)
         {
-            if(i == 0 || i == HEIGHT-1) cout << '#';
+            if(i == 0 || i == HEIGHT-1) cout << u8"\U00002694";
 
-            else if(i == snake_pos.getY() && j+1 == snake_pos.getX()) cout << '0';  //snake
-            else if(i == food_pos.getY() && j+1 == food_pos.getX()) cout << '@';    //food
+            else if(i == snake_pos.getY() && j+1 == snake_pos.getX()) cout << u8"\U0001F40D";  //snake
+            else if(i == food_pos.getY() && j+1 == food_pos.getX()) cout << u8"\U0001F34F";    //food
 
             else
             {
@@ -52,7 +52,7 @@ void board()
                 {
                     if(i == snake_body[k].getY() && j+1 == snake_body[k].getX())
                     {
-                        cout << 'o';
+                        cout << u8"\U0001F40D";
                         isBodyPart = true;
                         break;
                     }
@@ -61,12 +61,33 @@ void board()
                 if(!isBodyPart) cout << ' ';
             }
         }
-        cout << "#\n";
+        cout << u8"\U00002694" << endl;
     }
 }
 
 int main()
 {
+    cout<< endl;
+    cout<< "//**********************************************************//"<<endl;
+    cout<<"                 "<<u8"\U0001F40D"<<"Welcome To Snake"<<u8"\U0001F40D"<<endl;
+    cout<<"          "<<u8"\U00002694"<<"Easy and Fun way to waste the time!"<<u8"\U00002694"<<endl;
+    cout<< "//**********************************************************//"<<endl;
+    cout<< endl;
+    cout<<"                      Choose Level:                             "<<endl;
+    cout<<"                      1.Easy"<<u8"\U0001F36A"<<"                "<<endl;
+    cout<<"                      2.Medium"<<u8"\U0001F41E"<<"              "<<endl;
+    cout<<"                      3.Hard"<<u8"\U0001F373"<<"                "<<endl;
+    cout<< endl;
+    cout<<"                      ENJOY!!!!!!                               "<<endl;
+    cout<< endl;
+    cout<< "//**********************************************************//"<<endl;
+    cout<< endl<<endl;
+
+
+
+
+
+
     score = 0;
     srand(time(NULL));
 
@@ -90,7 +111,13 @@ int main()
             }
         }
 
-        if(snake.collided()) game_over = true;
+        if(snake.collided()) {
+            cout<<"//**********************************************************//"<<endl;
+            cout<<"                "<<u8"\U0000274C"<<u8"\U0000274C"<<"GAME OVER!"<<u8"\U0000274C"<<u8"\U0000274C"<<endl;
+            cout<<"                 See you next time.                      "<<endl;
+            cout<<"//**********************************************************//"<<endl;
+            game_over = true;
+        }
 
         if(snake.eaten(food.getPosition()))
         {
