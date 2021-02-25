@@ -1,5 +1,5 @@
 niv 200
 XXX 120
+niv 70
+niv 40
 qqq 30
-niv 30
-ppp 20

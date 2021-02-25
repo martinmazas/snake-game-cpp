@@ -13,48 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1a808434-4fb9-4430-9564-403675e7b160" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGame.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BoardGame.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Level.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Score.h" beforeDir="false" afterPath="$PROJECT_DIR$/Score.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScoreCompression.h" beforeDir="false" afterPath="$PROJECT_DIR$/ScoreCompression.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGameInterface.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeGameInterface.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Food.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Food.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/ScoreCompression.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/ScoreCompression.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Snake.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/Snake.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FinalProject_SnakeGame.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FinalProject_SnakeGame" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FinalProject_SnakeGame" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FinalProject_SnakeGame.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/FinalProject_SnakeGame.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Point.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Score.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/scores.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +84,7 @@
       <workItem from="1614162312348" duration="87000" />
       <workItem from="1614162432750" duration="183000" />
       <workItem from="1614242382282" duration="19523000" />
-      <workItem from="1614269889235" duration="2342000" />
+      <workItem from="1614269889235" duration="3384000" />
     </task>
     <servers />
   </component>
@@ -139,22 +100,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614271360117" />
-    <state width="1398" height="383" key="GridCell.Tab.0.bottom" timestamp="1614272559791">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom" timestamp="1614273560698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="383" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614272559791" />
-    <state width="1398" height="383" key="GridCell.Tab.0.center" timestamp="1614272559788">
+    <state width="1398" height="217" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273560698" />
+    <state width="1398" height="217" key="GridCell.Tab.0.center" timestamp="1614273560697">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="383" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614272559788" />
-    <state width="1398" height="383" key="GridCell.Tab.0.left" timestamp="1614272559787">
+    <state width="1398" height="217" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273560697" />
+    <state width="1398" height="217" key="GridCell.Tab.0.left" timestamp="1614273560696">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="383" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614272559787" />
-    <state width="1398" height="383" key="GridCell.Tab.0.right" timestamp="1614272559789">
+    <state width="1398" height="217" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273560696" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right" timestamp="1614273560698">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="383" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614272559789" />
+    <state width="1398" height="217" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1614273560698" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
