@@ -8,7 +8,6 @@ Snake::Snake(Point position, int velocity):_position(position), _velocity(veloci
 {
     _direction = 'n';
     _length = 1;
-
     _body.push_back(position);
 }
 

@@ -1,17 +1,13 @@
 //#include <iostream>
 //#include "BoardGame.h"
-//int main() {
-//    auto board = new BoardGame();
-//    std::cout << *board;
-//    return 0;
-//
-//}
-
 
 #include <iostream>
 //#include <conio.h>
 #include <ctime>
 #include <ncurses.h>
+#include <map>
+#include <vector>
+#include "ScoreCompression.h"
 
 #include "Snake.h"
 #include "Food.h"
@@ -34,6 +30,7 @@ void board()
     vector<Point> snake_body = snake.get_body();
 
     cout << "SCORE : " << score << "\n\n";
+
 
     for(int i = 0; i < HEIGHT; i++)
     {
@@ -67,6 +64,7 @@ void board()
 
 int main()
 {
+    int level;
     cout<< endl;
     cout<< "//**********************************************************//"<<endl;
     cout<<"                 "<<u8"\U0001F40D"<<"Welcome To Snake"<<u8"\U0001F40D"<<endl;
@@ -77,23 +75,33 @@ int main()
     cout<<"                      1.Easy"<<u8"\U0001F36A"<<"                "<<endl;
     cout<<"                      2.Medium"<<u8"\U0001F41E"<<"              "<<endl;
     cout<<"                      3.Hard"<<u8"\U0001F373"<<"                "<<endl;
+    cin>>level;
     cout<< endl;
     cout<<"                      ENJOY!!!!!!                               "<<endl;
     cout<< endl;
     cout<< "//**********************************************************//"<<endl;
     cout<< endl<<endl;
 
-
-
-
-
-
     score = 0;
-    srand(time(NULL));
+    srand(time(nullptr));
 
     food.genFood();
 
     char game_over = false;
+    int scoreLevel;
+    switch (level) {
+        case 1:
+            scoreLevel = 10;
+            break;
+        case 2:
+            scoreLevel = 7;
+            break;
+        case 3:
+            scoreLevel = 5;
+            break;
+        default:
+            break;
+    }
 
     while(!game_over)
     {
@@ -112,6 +120,21 @@ int main()
         }
 
         if(snake.collided()) {
+            ScoreCompression scores;
+            scores.load();
+            string nickname;
+            cout<<"Please enter your name initials(3): "<<endl;
+            cin>> nickname;
+            if(nickname.length() < 3) {
+                nickname = "XXX";
+            }
+            if(nickname.length() > 3) {
+                nickname = nickname.substr(0,3);
+            }
+            scores.checkNewScore(score,nickname);
+            scores.save();
+            scores.displayScoreTable();
+
             cout<<"//**********************************************************//"<<endl;
             cout<<"                "<<u8"\U0000274C"<<u8"\U0000274C"<<"GAME OVER!"<<u8"\U0000274C"<<u8"\U0000274C"<<endl;
             cout<<"                 See you next time.                      "<<endl;
@@ -123,7 +146,7 @@ int main()
         {
             food.genFood();
             snake.grow();
-            score = score + 10;
+            score += scoreLevel;
         }
 
         snake.move_snake();

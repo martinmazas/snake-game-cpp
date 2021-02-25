@@ -1,0 +1,5 @@
+qqq 30
+ppp 20
+XXX 20
+XXX 20
+XXX 14

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug"/>
+				<Option working_dir="/Users/martinmazas/Desktop/snake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug"/>
+				<Option working_dir="/Users/martinmazas/Desktop/snake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug"/>
+				<Option working_dir="/Users/martinmazas/Desktop/snake/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FinalProject_SnakeGame">
-				<Option output="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug/FinalProject_SnakeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug"/>
+				<Option output="/Users/martinmazas/Desktop/snake/cmake-build-debug/FinalProject_SnakeGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/martinmazas/Desktop/snake/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject_SnakeGame"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject_SnakeGame"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FinalProject_SnakeGame/fast">
-				<Option output="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug/FinalProject_SnakeGame" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug"/>
+				<Option output="/Users/martinmazas/Desktop/snake/cmake-build-debug/FinalProject_SnakeGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/martinmazas/Desktop/snake/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,29 +73,35 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject_SnakeGame/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester\ 1/Methods\ in\ software\ engineering\ /SnakeGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 FinalProject_SnakeGame/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/martinmazas/Desktop/snake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Food.cpp">
+		<Unit filename="/Users/martinmazas/Desktop/snake/Food.cpp">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Food.h">
+		<Unit filename="/Users/martinmazas/Desktop/snake/Food.h">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Snake.cpp">
+		<Unit filename="/Users/martinmazas/Desktop/snake/ScoreCompression.cpp">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Snake.h">
+		<Unit filename="/Users/martinmazas/Desktop/snake/ScoreCompression.h">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/main.cpp">
+		<Unit filename="/Users/martinmazas/Desktop/snake/Snake.cpp">
 			<Option target="FinalProject_SnakeGame"/>
 		</Unit>
-		<Unit filename="/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/CMakeLists.txt">
+		<Unit filename="/Users/martinmazas/Desktop/snake/Snake.h">
+			<Option target="FinalProject_SnakeGame"/>
+		</Unit>
+		<Unit filename="/Users/martinmazas/Desktop/snake/main.cpp">
+			<Option target="FinalProject_SnakeGame"/>
+		</Unit>
+		<Unit filename="/Users/martinmazas/Desktop/snake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

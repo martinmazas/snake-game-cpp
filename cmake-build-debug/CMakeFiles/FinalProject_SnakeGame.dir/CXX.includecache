@@ -6,31 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Food.h
+/Users/martinmazas/Desktop/snake/Food.h
 cstdio
 -
 Point.h
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Point.h
+/Users/martinmazas/Desktop/snake/Point.h
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Point.h
+/Users/martinmazas/Desktop/snake/Point.h
 iostream
 -
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Snake.h
+/Users/martinmazas/Desktop/snake/ScoreCompression.h
+iostream
+-
+vector
+-
+cstring
+-
+fstream
+-
+stdlib.h
+-
+
+/Users/martinmazas/Desktop/snake/Snake.h
 vector
 -
 Point.h
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Point.h
+/Users/martinmazas/Desktop/snake/Point.h
 
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/main.cpp
+/Users/martinmazas/Desktop/snake/main.cpp
 iostream
 -
 ctime
 -
 ncurses.h
 -
+map
+-
+vector
+-
+ScoreCompression.h
+/Users/martinmazas/Desktop/snake/ScoreCompression.h
 Snake.h
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Snake.h
+/Users/martinmazas/Desktop/snake/Snake.h
 Food.h
-/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/Food.h
+/Users/martinmazas/Desktop/snake/Food.h
 
