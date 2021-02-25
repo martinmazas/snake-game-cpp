@@ -17,6 +17,7 @@ class ScoreCompression {
     string title = "TOP 5 SCORES";
     vector<pair<int, string>> scores;
     string fileName = "scores.txt";
+
 public:
     ScoreCompression() {};
 

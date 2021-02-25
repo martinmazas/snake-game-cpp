@@ -8,6 +8,7 @@
 #include <map>
 #include <vector>
 #include "ScoreCompression.h"
+#include "Score.h"
 
 #include "Snake.h"
 #include "Food.h"
@@ -31,6 +32,7 @@ void board()
 
     cout << "SCORE : " << score << "\n\n";
 
+    //Display the board height and width
 
     for(int i = 0; i < HEIGHT; i++)
     {
@@ -88,27 +90,17 @@ int main()
     food.genFood();
 
     char game_over = false;
-    int scoreLevel;
-    switch (level) {
-        case 1:
-            scoreLevel = 10;
-            break;
-        case 2:
-            scoreLevel = 7;
-            break;
-        case 3:
-            scoreLevel = 5;
-            break;
-        default:
-            break;
-    }
+
+    //Score object for getting level and initial the scores.
+    Score scoreLevel;
+    int newScore = scoreLevel.setScore(level);
 
     while(!game_over)
     {
         board();
         char c;
         c = getchar();
-        if(c)      // Need to change
+        if(c)
         {
             switch(c)
             {
@@ -120,19 +112,24 @@ int main()
         }
 
         if(snake.collided()) {
+            //Load file with highest scores.
             ScoreCompression scores;
             scores.load();
+
             string nickname;
             cout<<"Please enter your name initials(3): "<<endl;
             cin>> nickname;
+            //Name needs to be 3 characters
             if(nickname.length() < 3) {
                 nickname = "XXX";
             }
             if(nickname.length() > 3) {
                 nickname = nickname.substr(0,3);
             }
+            //Check if the new score is in top 5 scores.
             scores.checkNewScore(score,nickname);
             scores.save();
+
             scores.displayScoreTable();
 
             cout<<"//**********************************************************//"<<endl;
@@ -146,12 +143,8 @@ int main()
         {
             food.genFood();
             snake.grow();
-            score += scoreLevel;
+            score += newScore;
         }
-
         snake.move_snake();
-//        printf("\033[%d;%dm", snake.get_pos().getX(), snake.get_pos().getY());
-
-//        SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), {0, 0});
     }
 }

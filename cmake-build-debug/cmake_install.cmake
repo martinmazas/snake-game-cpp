@@ -1,4 +1,4 @@
-# Install script for directory: /Users/martinmazas/Desktop/snake
+# Install script for directory: /Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/martinmazas/Desktop/snake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/nivswisa/Desktop/Shenkar/ThirdYear/Semester 1/Methods in software engineering /SnakeGame/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

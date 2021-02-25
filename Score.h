@@ -9,20 +9,34 @@
 class Score {
 private:
     int _score;
-    int _lengthOfSnakeBody;
 public:
-    Score():_score(0),_lengthOfSnakeBody(0){}
-    explicit Score(int score,int bodyLength):_score(score),_lengthOfSnakeBody(bodyLength){}
-    Score(const Score& score){*this = score;}
+    Score():_score(0){}
+
+    Score(int score):_score(10){}
+
     ~Score()= default;
 
     int getScore() const{return _score;}
-    void setScore(int score){_score = score;}
-    void calculateScore(){
-        if(_lengthOfSnakeBody > 0){// continued to be different between levels and their calculate;
-            _score = _lengthOfSnakeBody + 5;
+
+    int setScore(int level){
+        int newScore;
+        switch (level) {
+            case 1:
+                newScore = 10;
+                break;
+            case 2:
+                newScore = 7;
+                break;
+            case 3:
+                newScore = 5;
+                break;
+            default:
+                break;
         }
+        return newScore;
     }
+
+
 
 };
 
